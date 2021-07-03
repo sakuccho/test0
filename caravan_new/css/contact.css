@@ -1,0 +1,268 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  overflow-x: hidden;
+  background: url(../img/contact_bg.png) repeat-y scroll center center;
+  background-size: cover;
+  color: #410908;
+  font-family: Hiragino Sans, "ヒラギノ角ゴシック", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 13px;
+  font-size: 1.3rem;
+  height: 100%;
+  line-height: 1.53;
+  width: 100%; }
+
+img {
+  vertical-align: top; }
+
+a:hover {
+  text-decoration: none; }
+
+.global-header .inner h1 {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 28px;
+  z-index: 100; }
+  .global-header .inner h1 a:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+.global-header .inner h1:after {
+  margin: 10px auto 0 19px;
+  content: " ";
+  display: block;
+  width: 254px;
+  height: 20px;
+  background: url(../img/header_tab.png) no-repeat 0px 0;
+  background-size: contain;
+  padding-right: 391px; }
+
+.wrapper #Confirm {
+  width: 1000px;
+  padding: 170px 0 100px 0;
+  margin: 0 auto;
+  text-align: center; }
+  .wrapper #Confirm h3 {
+    margin: 0px 0 30px 0px; }
+  .wrapper #Confirm .confirm-text br {
+    display: none; }
+  .wrapper #Confirm h4 {
+    margin-bottom: 35px; }
+  .wrapper #Confirm .error_messe {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff0000; }
+  .wrapper #Confirm .error-btn {
+    margin-top: 30px; }
+    .wrapper #Confirm .error-btn a:hover {
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+      -ms-filter: "alpha(opacity=70)";
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+  .wrapper #Confirm table {
+    width: 700px;
+    margin: 20px auto 40px; }
+    .wrapper #Confirm table th {
+      font-size: 18px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-align: right;
+      width: 120px;
+      padding: 20px 20px 20px 0px; }
+    .wrapper #Confirm table td {
+      font-size: 15px;
+      font-size: 1.5rem;
+      padding-left: 10px; }
+  .wrapper #Confirm button {
+    background: none;
+    border: medium none;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+  .wrapper #Confirm .form-btn li {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle; }
+  .wrapper #Confirm .form-btn li:first-child {
+    margin-right: 40px; }
+  .wrapper #Confirm .form-btn li:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  .wrapper #Confirm .top-btn:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+
+@media only screen and (max-width: 750px) {
+  .global-header .inner h1 {
+    padding-top: 18px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin-left: 0px;
+    position: relative; }
+    .global-header .inner h1 img {
+      width: 204px;
+      height: 35px; }
+  .global-header .inner h1:after {
+    margin: 5px auto 0px;
+    padding-right: 0px;
+    content: " ";
+    display: block;
+    width: 146px;
+    height: 13px;
+    background: url(../img/sp_header_tab.png) no-repeat 50% 0;
+    background-size: contain; }
+
+  .wrapper #Confirm {
+    width: 94%;
+    padding: 40px 0 40px 0;
+    padding-left: 3%;
+    padding-right: 3%; }
+    .wrapper #Confirm h3 {
+      margin: 0px 0 25px 0px; }
+      .wrapper #Confirm h3 img {
+        width: 170px;
+        height: 20px; }
+    .wrapper #Confirm h4 {
+      margin-bottom: 30px; }
+    .wrapper #Confirm .confirm-text br {
+      display: block; }
+    .wrapper #Confirm table {
+      width: 90%;
+      margin: 20px auto 40px;
+      padding-left: 5%;
+      padding-right: 5%; }
+      .wrapper #Confirm table th {
+        font-size: 16px;
+        font-size: 1.6rem;
+        text-align: left;
+        width: 10%;
+        padding: 20px 20px 20px 0px; }
+      .wrapper #Confirm table td {
+        font-size: 14px;
+        font-size: 1.4rem;
+        width: 90%;
+        padding-left: 10px; }
+    .wrapper #Confirm .form-btn li {
+      margin-bottom: 10px;
+      line-height: 0px; }
+    .wrapper #Confirm .form-btn li:first-child {
+      margin-right: 10px; }
+    .wrapper #Confirm .form-btn .back-btn img {
+      width: 130px;
+      height: 34px; }
+    .wrapper #Confirm .form-btn .submit-btn img {
+      width: 202px;
+      height: 34px; }
+    .wrapper #Confirm .form-btn .top-btn img {
+      width: 202px;
+      height: 34px; }
+    .wrapper #Confirm .error-btn {
+      margin-top: 30px; }
+      .wrapper #Confirm .error-btn img {
+        width: 130px;
+        height: 34px; }
+    .wrapper #Confirm .top-btn img {
+      width: 202px;
+      height: 34px; } }
+@media only screen and (max-width: 374px) {
+  .wrapper #Confirm .confirm-text, .wrapper #Confirm h4 {
+    font-size: 12px;
+    font-size: 1.2rem; }
+  .wrapper #Confirm table {
+    margin-bottom: 30px; }
+    .wrapper #Confirm table th {
+      font-size: 14px;
+      font-size: 1.4rem;
+      padding: 15px 15px 15px 0px; }
+    .wrapper #Confirm table td {
+      font-size: 13px;
+      font-size: 1.3rem; }
+  .wrapper #Confirm .form-btn li {
+    line-height: 0; }
+  .wrapper #Confirm .form-btn li:first-child {
+    margin-right: 10px; }
+  .wrapper #Confirm .form-btn .back-btn img {
+    width: 97.5px;
+    height: 25.5px; }
+  .wrapper #Confirm .form-btn .submit-btn img {
+    width: 151.5px;
+    height: 25.5px; }
+  .wrapper #Confirm .top-btn img {
+    width: 151.5px;
+    height: 25.5px; }
+  .wrapper #Confirm .error-btn img {
+    width: 97.5px;
+    height: 25.5px; } }
